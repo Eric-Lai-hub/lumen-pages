@@ -1,0 +1,26 @@
+schema: "1"
+
+app:
+  name: "浮光 Lumen 支持与隐私页"
+  slug: "lumen-site"
+  status: "active"
+  platform: "web"
+  related_app: "lumen-color-match"
+  default_locale: "zh-Hans"
+  locales:
+    - "zh-Hans"
+
+urls:
+  site: "https://eric-lai-hub.github.io/lumen-pages/"
+  support: "https://eric-lai-hub.github.io/lumen-pages/support.html"
+  privacy: "https://eric-lai-hub.github.io/lumen-pages/privacy.html"
+
+paths:
+  site_root: "."
+  entry: "index.html"
+  stylesheet: "style.css"
+
+deploy:
+  provider: "github-pages"
+  branch: "main"
+  last_verified: "2026-09-14"
